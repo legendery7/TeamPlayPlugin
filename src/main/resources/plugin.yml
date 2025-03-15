@@ -1,0 +1,45 @@
+name: TeamPlayPlugin
+version: 1.0
+main: org.legendery.teamPlayPlugin.TeamPlayPlugin
+api-version: 1.20
+commands:
+  teams:
+    description: Управление командами
+    usage: /teams <ник> <команда>
+    permission: teamplay.admin
+  magnetblock:
+    description: Выдает командный блок
+    usage: /magnetblock
+    permission: team.magnetblock # Используем правильный префикс "team"
+  pvp:  # Добавлена команда /pvp
+    description: Включает/выключает PvP для всех игроков.
+    usage: /pvp
+    permission: team.pvp.toggle
+  death: # Добавлена команда /pvp
+    description: Включает/выключает death для всех игроков.
+    usage: /death
+    permission: team.death.toggle
+  tm: # Добавлена команда /pvp
+    description: Информация о команде
+    usage: /tm
+  compass:
+    description: Включить/выключить компас.
+    usage: /compass
+    permission: team.compass
+
+permissions:
+  teamplay.admin:
+    description: Позволяет управлять командами
+    default: op
+  team.magnetblock: # Используем правильный префикс "team"
+    description: Позволяет игроку получать магнитный блок для себя.
+    default: op
+  team.magnetblock.giveall: # Разрешение на выдачу блоков всем
+    description: Позволяет выдавать магнитные блоки всем игрокам с тегом 'uni'.
+    default: op
+  team.pvp.toggle:  # Добавлено определение разрешения для команды /pvp
+    description: Позволяет включать/выключать PvP для всех.
+    default: op
+  team.death.toggle:
+    description: Разрешает переключать режим обычной смерти.
+    default: op
