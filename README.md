@@ -13,13 +13,13 @@ This repository is a **software module** for a real-time multiplayer platform. T
 Package-based modular design under `org.legendery.teamPlayPlugin`:
 
 ```
-commands/     → player/admin command handlers
-team/         → team aggregate & related flows
-upgrades/     → progression / unlock managers
-manager/      → cross-cutting gameplay services
-constructor/  → upgrade model construction
-zapret/       → gated unlock upgrades (crafting, enchanting, effects, …)
-prepire/      → preparation-phase craft restrictions
+commands/      → player/admin command handlers
+team/          → team aggregate & related flows
+upgrades/      → progression / unlock managers
+manager/       → cross-cutting gameplay services
+model/         → upgrade domain models
+unlocks/       → gated unlock upgrades (crafting, enchanting, effects, …)
+preparation/   → preparation-phase craft restrictions
 ```
 
 Typical flow:
@@ -70,11 +70,9 @@ Copy the built JAR from `target/` into the server `plugins/` directory and resta
 
 ## Roadmap
 
-- [ ] Rename unclear packages (`prepire`, `zapret`) to English domain names
 - [ ] Extract repository interfaces over `DatabaseManager`
 - [ ] Document commands and permissions in `/docs`
 - [ ] Add unit tests for upgrade unlock rules
-- [ ] Remove IDE metadata from version control
 
 ## License
 

@@ -19,7 +19,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.CompassMeta;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.legendery.teamPlayPlugin.TeamPlayPlugin;
-import org.legendery.teamPlayPlugin.constructor.Upgrade;
+import org.legendery.teamPlayPlugin.model.Upgrade;
 import org.legendery.teamPlayPlugin.team.TeamManager;
 import org.legendery.teamPlayPlugin.manager.util.MessageCooldownManager;
 import org.legendery.teamPlayPlugin.util.ItemNameTranslator;

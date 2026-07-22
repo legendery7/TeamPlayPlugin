@@ -10,14 +10,14 @@ import org.legendery.teamPlayPlugin.commands.CompassCommand;
 import org.legendery.teamPlayPlugin.commands.TeamInfoCommand;
 import org.legendery.teamPlayPlugin.commands.TeamInfoTabCompleter;
 import org.legendery.teamPlayPlugin.manager.*;
-import org.legendery.teamPlayPlugin.prepire.CraftRestrictionManager;
-import org.legendery.teamPlayPlugin.prepire.StoneCraftRestriction;
+import org.legendery.teamPlayPlugin.preparation.CraftRestrictionManager;
+import org.legendery.teamPlayPlugin.preparation.StoneCraftRestriction;
 import org.legendery.teamPlayPlugin.team.*;
 import org.legendery.teamPlayPlugin.upgrades.*;
-import org.legendery.teamPlayPlugin.zapret.AnvilUpgrade;
-import org.legendery.teamPlayPlugin.zapret.EnchantingUpgrade;
-import org.legendery.teamPlayPlugin.zapret.SmithingTableUpgrade;
-import org.legendery.teamPlayPlugin.zapret.TeamEffectUpgrade;
+import org.legendery.teamPlayPlugin.unlocks.AnvilUpgrade;
+import org.legendery.teamPlayPlugin.unlocks.EnchantingUpgrade;
+import org.legendery.teamPlayPlugin.unlocks.SmithingTableUpgrade;
+import org.legendery.teamPlayPlugin.unlocks.TeamEffectUpgrade;
 
 public final class TeamPlayPlugin extends JavaPlugin implements Listener {
 

@@ -9,11 +9,11 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffectType;
 import org.legendery.teamPlayPlugin.DatabaseManager;
 import org.legendery.teamPlayPlugin.TeamPlayPlugin;
-import org.legendery.teamPlayPlugin.constructor.TeamUpgrade;
-import org.legendery.teamPlayPlugin.constructor.Upgrade;
-import org.legendery.teamPlayPlugin.zapret.CraftUnlockUpgrade;
-import org.legendery.teamPlayPlugin.zapret.PermissionUpgrade;
-import org.legendery.teamPlayPlugin.zapret.TeamEffectUpgrade;
+import org.legendery.teamPlayPlugin.model.TeamUpgrade;
+import org.legendery.teamPlayPlugin.model.Upgrade;
+import org.legendery.teamPlayPlugin.unlocks.CraftUnlockUpgrade;
+import org.legendery.teamPlayPlugin.unlocks.PermissionUpgrade;
+import org.legendery.teamPlayPlugin.unlocks.TeamEffectUpgrade;
 import org.legendery.teamPlayPlugin.manager.util.MessageCooldownManager;
 
 import java.util.HashMap;

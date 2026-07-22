@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <copy file="D:\4\TeamPlayPlugin\target/TeamPlayPlugin-1.0.jar" tofile="D:\90\test server\plugins\TeamPlayPlugin-1.0.jar"/>
-</target>
-</project>
